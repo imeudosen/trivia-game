@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Trivia</title>
+</head>
+
+<body>
+
+
+	<div id="body-container">
+		<!-- trying to add a timer -->
+		<div class="score-board2">
+			<!--<div id="user-label" class="badge">user</div>
+	            				<div id="computer-label" class="badge">comp</div> -->
+			<span id="user-score">0</span>:<span id="computer-score">0</span>
+		</div>
+	
+		<div id="head">
+			<h2>Trivia</h2>
+			Question: <text id="question">0</text><br />
+			Score: <text id="scoreboard">0</text>
+	
+			<marquee>
+				<p align="CENTER">!!!! Buckle up It gets harder !!!!</p>
+			</marquee>
+	
+			<div id="startMsg">Click start to begin</div>
+			<br />
+		</div>
+		<div id="tail">
+			<div id="firstQst"></div>
+			<div id="fisrtOption"></div>
+			<div id="secondOption"></div>
+			<div id="thirdOption"></div>
+			<div id="fourthOption"></div>
+			<div id="correctOrIncorrectAnswer"></div>
+			<div id="textNumber1">
+				<div id="hide">
+					<button class="startButton" onclick="start()">start</button>
+				</div>
+			</div>
+			<div id="endSession"></div>
+	
+			<div id="nextSession"></div>
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+	<link href="styles.css" rel="stylesheet">
+
+
+
+	</body>
+	
+	</html>

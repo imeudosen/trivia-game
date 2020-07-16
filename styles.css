@@ -1,0 +1,60 @@
+.score-board2 {
+				margin: 20px auto;
+				border: 5px solid black;
+				border-radius: 1rem;
+				text-align: center;
+				width: 200px;
+				font-size: 20px;
+				padding: 15px 20px;
+				font-family: Asap, sans-serif;
+				position: relative;
+			}
+
+			#body-container {
+				position: absolute;
+				top: 20%;
+				left: 35%;
+				transform: translate(-50%, -50%);
+				background-color: rgba(9, 243, 243, 0.096);
+				border: 10px solid white;
+				width: 500px;
+				height: 800px;
+				border-radius: 10px;
+				padding: 10px;
+				margin: 200px;
+            }
+            
+            #head {
+				text-align: center;
+			}
+
+			#tail {
+				text-align: center;
+                padding: 8px;
+            }
+			.startButton {
+				background-color: rgb(146, 87, 11);
+				color: white;
+				padding: 10px;
+				margin: 10px;
+				border-radius: 30px;
+				width: 150px;
+			}
+
+			.buttons002 {
+				background-color: rgb(247, 241, 241);
+				color: rgb(20, 1, 1);
+				padding: 25px;
+				margin: 10px;
+				border-radius: 10px;
+				width: 200px;
+            }
+            
+
+			#greenText {
+				color: green;
+			}
+
+			#redText {
+				color: red;
+			}
