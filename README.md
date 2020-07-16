@@ -10,6 +10,15 @@ Pre-load app with some questions and answers.
 One of lifes favorite routine is meeting up with friends each week for trivia night so its time to build it.
 My goal is to test the user's knowledge with questions and optional answers. have the computer tell them how right they are!
 
+
+
+## Technologies used
+    HTML, JAVASCRIPT AND CSS
+
+
+
+
+
 ## User stories:
 
 - As a user i want to learn more about the game using instructions
